@@ -1,24 +1,64 @@
-<!DOCTYPE html>
+body {
+  font-family: Helvetica;
+}
+b {
+  font-size: 35px;
+}
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="tweet-clone.css">
-  <title>HTML &amp; CSS | Ironhack PreWork |</title>
-</head>
-<body>
-  <img class="Propic" src="img/profile-picture.jpg" alt="profile pic"> <img src="img/account-logo.jpg" alt="account logo"> <b>jack</b> <img src="img/validated-account.jpg" alt="validated account"> <img class="twitter-logo" src="img/twitter-logo.jpg" alt="twitter logo"> <input type="submit" id="follow-button" value="Follow"> </input> <br>
-    <mark class="grey"> @jack </mark>
+mark.grey {
+  color: grey;
+  font-size: 25px;
+}
 
-  <p class="big">
-    just setting up my twtter<br>
-    <time>9:50</time> PM - 21 March 2006
-  </p>
+p {
+  line-height: 25px;
+}
+mark.grey2 {
+  color: grey;
+}
 
-  <img class="reply" src="img/reply.jpg" alt="reply"> <img src="img/retweet.jpg" alt="retweet"> <mark class="grey2">92,555</mark>  <img class="fav" src="img/favorite.jpg" alt="favorite"> <mark class="grey2"> 71,111 </mark>
+img.Propic {
+  padding: 0px 15px 0px 0px
+}
+img.reply {
+  padding: 0px 25px 0px 0px
+}
+img.fav {
+  padding: 0px 0px 0px 25px
+}
+img.twitterlogo {
+  padding: 0px 0px 0px 70px
+}
+body {
+  font-family: Helvetica;
 
 
-</body>
-</html>
+}
+b {
+  font-size: 35px;
+}
+
+mark.grey {
+  color: grey;
+  font-size: 25px;
+}
+
+p {
+  line-height: 25px;
+}
+mark.grey2 {
+  color: grey;
+}
+
+img.Propic {
+  padding: 0px 15px 0px 0px
+}
+img.reply {
+  padding: 0px 25px 0px 0px
+}
+img.fav {
+  padding: 0px 0px 0px 25px
+}
+img.twitter-logo{
+  padding: 0px 0px 0px 140px
+}
